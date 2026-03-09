@@ -6,7 +6,7 @@ public class HashProject
     {
         LinearProbingHashST<String, Integer> st = new LinearProbingHashST<>();
 
-        String str = "Aaliyah";// YOur Name
+        String str = "Aaliyah";
         for (int i = 0; i < str.length(); i++)
         {
             String key = str.substring(i, i + 1);
@@ -17,3 +17,4 @@ public class HashProject
 
     }
 }
+
